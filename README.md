@@ -7,7 +7,6 @@ To start your Phoenix server:
   iex(3)> Uplearn.Scrap.fetch("https://www.telerik.com/support/demos")
 
     
-    ```
     {:ok,
     %{
       assets: ["https://d585tldpucybw.cloudfront.net/sfimages/default-source/decorations/hero-hub-pages.svg?sfvrsn=1962173e_3",
@@ -57,7 +56,7 @@ To start your Phoenix server:
         "/teststudio/testing-framework", "/all-products", "/support/demos",
         "/services", "/blogs", "/support", ...]
     }}
-    ```
+    
 
     * mix test
 
