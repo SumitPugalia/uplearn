@@ -60,3 +60,12 @@ To start your Phoenix server:
     ```
 
     * mix test
+
+
+## Details
+
+* Have used Floki to parse html document
+* Have used HTTPoison for http requests
+* Added tests using the mock 
+* Didn't add Routes but can be added and calling the above function from the controller & return the response.
+* There wasn't much on organising code but would have extracted http calls to a separate module and scrap to decide which HTTPClient to call the real or the mocked one (which is better as tests wont be tied to HTTPoison.)
