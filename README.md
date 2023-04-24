@@ -58,4 +58,5 @@ To start your Phoenix server:
         "/services", "/blogs", "/support", ...]
     }}
     ```
-    
+
+    * mix test
