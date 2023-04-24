@@ -35,7 +35,7 @@ defmodule Uplearn.Scrap do
       {:ok, %HTTPoison.Response{status_code: 404}} ->
         {:error, :not_found}
 
-      {:ok, %HTTPoison.Response{status_code: _, body: body}} ->
+      {:ok, %HTTPoison.Response{status_code: _, body: _body}} ->
         {:error, :unexpected_status_code}
 
       {:error, %HTTPoison.Error{reason: reason}} ->
