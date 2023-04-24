@@ -58,7 +58,8 @@ To start your Phoenix server:
     }}
     
 
-    * mix test
+  
+  * mix test
 
 
 ## Details
